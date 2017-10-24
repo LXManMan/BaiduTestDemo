@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, ‘8.0’
+inhibit_all_warnings!
+
+xcodeproj ‘TestDemo.xcodeproj’
+
+target  ‘TestDemo’ do
+  pod ‘AFNetworking’
+  pod 'BaiduMapKit'
+
+end
